@@ -1,7 +1,7 @@
 import pandas
 from sklearn import linear_model
 
-df = pandas.read_csv("data.csv")
+df = pandas.read_csv("housepricedata.csv")
 
 Y = df[["SalePrice"]]
 Y = Y.head(100)
